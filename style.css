@@ -1,0 +1,249 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap');
+* {
+    
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Open Sans', sans-serif;
+    font-family: 'Roboto', sans-serif;
+}
+
+body {
+    display: flex;
+    flex-direction: column;
+}
+/* Header Stuff */
+header, section-1, footer {
+    background-color: #1F2937;
+    color: white;
+}
+
+header {
+    display: flex; 
+    padding: 4px 64px 0 64px;
+}
+
+header h1 {
+    font-size: 16px;
+    width: 50%;
+    padding: 8px;
+}
+
+.header-link-container {
+    width: 100%;
+    display: flex;
+    justify-content: flex-end;
+    
+}
+
+header a {
+    text-decoration: none;
+    color: white;
+    padding: 8px;
+    font-weight: lighter;
+    font-size: 16px;
+}
+/* Section 1 Stuff */
+section-1 {
+    
+}
+
+.section-1-container {
+    display: flex;
+    flex-direction: row;
+    padding: 48px;
+}
+
+.section-1-text-container, .section-1-img-container {
+    flex: 1;
+}
+
+.section-1-text-container {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+}
+
+.section-1-container h1 {
+    padding: 16px;
+    font-weight: 6500;
+    padding-bottom: 4px
+}
+
+.section-1-container h4 {
+    padding: 16px;
+    padding-top: 0px;
+    font-weight: 300;
+}
+
+.button button {
+    width: 100px;
+    height: 32px;
+    padding: 8px;
+    background-color: #3882F6;
+    color: white;
+    border-radius: 8px;
+    cursor: pointer;
+    border: none;
+
+}
+
+.button{
+    display: flex;
+    justify-content: start;
+    margin-left: 12px;
+}
+
+.section-1-img-container {
+    background-image: url('img/cashala-1.jpg');
+    background-size: cover;
+    background-position: center;
+}
+
+
+/* Section 2 Stuff */
+section-2 {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-top: 48px;
+    margin-bottom: 48px;
+    
+}
+
+.section-2-title h2 {
+    text-align: center;
+    margin-top: 8px;
+    font-size: 36px; color: #1F2937;
+    font-weight: 900;
+}
+
+.card-container {
+    display: flex;
+    justify-content: space-evenly;
+    align-items: flex-start;
+    margin: 16px;
+}
+
+.card-container h2 {
+
+}
+
+.card {
+   
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+
+}
+
+.card-image-1, .card-image-2, .card-image-3, .card-image-4 {
+    width: 150px;
+    height: 150px;
+    border: solid #3882F6 3px;
+    border-radius: 8px;
+    margin: 8px;
+}
+.card-image-1{
+    background-image: url('img/cashala-2.jpg');
+    background-size: cover;
+    background-position: 0% 18%;
+}
+
+.card-image-2 {
+    background-image: url('img/cashala-3.jpg');
+    background-size: cover;
+    background-position: center;
+}
+
+.card-image-3 {
+    background-image: url('img/cashala-4.jpg');
+    background-size: 200%;
+    background-position: 50% 70%;
+}
+
+.card-image-4 {
+    background-image: url('img/cashala-5.jpg');
+    background-size: 150%;
+    background-position: 50% 40%;
+}
+
+.card-text {
+    width: 150px;
+    text-align: center;
+    font-weight: 100;
+    margin: 8px;
+}
+/* Section 3 stuff */
+section-3 {
+    display:flex;
+    flex-direction: column;
+    padding: 64px;
+    background-color: #E5E7EB; 
+}
+
+section-3 p {
+    padding: 16px;
+    font-weight: 100;
+    font-size: 24px;
+    text-align: center;
+    font-style: italic;
+}
+
+section-3 h4 {
+    text-align: end;
+}
+
+section-4 {
+    padding: 64px;
+}
+
+.blue-box {
+    background-color: #3882F6;
+    color: white;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 8px;
+}
+
+.inner-blue-box {
+    padding: 32px;
+    
+}
+
+.inner-blue-box h2 {
+    font-size: 20px;
+}
+
+.inner-blue-box h3 {
+    font-size: 16px;
+    font-weight: 100;
+}
+section-4 .button {
+    justify-self: start;
+}
+section-4 .button button {
+    align-self: flex-start;
+    width: 100px;
+    height: 32px;
+    border: solid white 1px;
+    background-color: #3882F6;
+    border-radius: 8px;
+    color: white;
+    margin-right: 12px
+}
+/* Footer Stuff */
+footer {
+    font-size: 12px;
+    font-weight: 100;
+    text-align: center;
+    padding: 24px;        
+}
+
+
+
+
+
+
+
